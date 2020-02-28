@@ -14,12 +14,15 @@ To develop your own card - step-by-step - please go to the [wiki site](https://g
 Have fun!
 [Fabian](https://twitter.com/fabiankaegy) & [Anja](https://twitter.com/anjadeubzer)
 
-Examples of the card:
+
+## Examples of the card:
+
 ![card-example-01](./card-example-01.jpg)
 
 Use the cards for featuring your Content. Here you can see some examples. You can create templates which already contain prefilled inner Blocks.
 
-To use the finished block run
+## To use the finished block run
+
 ```bash
 npm install
 ```
