@@ -20,13 +20,13 @@ Examples of the card:
 Use the cards for featuring your Content. Here you can see some examples. You can create templates which already contain prefilled inner Blocks.
 
 To use the finished block run
-```
-`npm install`
+```bash
+npm install
 ```
 
 After that you can use the block. For developing futher on the block run
-```
-`npm start`
+```bash
+npm start
 ```
 
 
