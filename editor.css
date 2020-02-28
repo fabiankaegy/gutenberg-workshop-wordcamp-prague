@@ -1,0 +1,8 @@
+.editor-styles-wrapper .wp-block-wordcampprague-cardblock .block-editor-block-list__block {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.editor-styles-wrapper .stretched-link::after {
+    display: none;
+}

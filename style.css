@@ -1,0 +1,118 @@
+/* basic styles for the block */
+
+/* diffenrent font?
+.editor-styles-wrapper .wp-block-wordcampprague-cardblock ,
+.entry-content .wp-block-wordcampprague-cardblock {
+    font-family: "Helvetica Neue", Helvetica, sans-serif !important;
+} 
+*/
+
+.wp-block-wordcampprague-cardblock {
+    position: relative;
+
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+
+    font-size: 18px;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+
+    background: white;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    border-radius: 4px;
+}
+
+.wp-block-wordcampprague-cardblock .card-header,
+.wp-block-wordcampprague-cardblock .card-body {
+    padding: 16px;
+}
+
+.editor-styles-wrapper div.wp-block-wordcampprague-cardblock div.card-header h3,
+div.wp-block-wordcampprague-cardblock div.card-header h3 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.wp-block-wordcampprague-cardblock .card-body .wp-block:first-child,
+.wp-block-wordcampprague-cardblock .card-body .wp-block:first-child p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.wp-block-wordcampprague-cardblock .card-body .has-small-font-size {
+    font-size: 14px;
+    /* font-family: "Helvetica Neue", Helvetica, sans-serif !important;  */
+}
+
+.wp-block-wordcampprague-cardblock div.card-body .wp-block-quote {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.editor-styles-wrapper .wp-block-wordcampprague-cardblock div.card-body h3,
+.editor-styles-wrapper .wp-block-wordcampprague-cardblock div.card-body h4,
+.editor-styles-wrapper .wp-block-wordcampprague-cardblock div.card-body h5,
+.wp-block-wordcampprague-cardblock div.card-body h3,
+.wp-block-wordcampprague-cardblock div.card-body h4,
+.wp-block-wordcampprague-cardblock div.card-body h5 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.wp-block-wordcampprague-cardblock div.card-body h4 {
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.wp-block-wordcampprague-cardblock .card-body ul {
+    margin-left: 0;
+    margin-bottom: 16px;
+}
+
+
+
+.wp-block-wordcampprague-cardblock  hr.wp-block-separator {
+    position: relative;
+    margin: 0.5rem -16px;
+    background-color: transparent;
+    border-top: 1px solid #ddd;
+}
+@media (min-width: 700px) {
+    .wp-block-wordcampprague-cardblock  hr.wp-block-separator {
+        margin: 10px -16px;
+    }
+}
+.wp-block-wordcampprague-cardblock  .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    max-width: none;
+}
+.wp-block-wordcampprague-cardblock  hr.wp-block-separator:before,
+.wp-block-wordcampprague-cardblock  hr.wp-block-separator:after {
+  display: none;  
+}
+
+
+.wp-block-wordcampprague-cardblock div.card-body *:last-child {
+    margin-bottom: 0;
+}
+
+.wp-block-wordcampprague-cardblock.is-style-outline {
+    border: 30px solid red;
+}
+
+/* Link the whole .card */
+.stretched-link {
+    content: '';
+    text-indent: 40%;
+    width: 1px;
+    height: 1px;
+}
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
