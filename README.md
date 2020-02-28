@@ -9,7 +9,7 @@ We want to instruct you to develop a custom gutenberg block from scratch with th
 The outcome of this workshop is a versatile Card Block you can hopefully adapt and reuse one one of your future projects.
 
 This repository containes the finished card. 
-To develop your own card - step-by-step - please go to the [wiki site](some_other_wiki_page.md) of this repository.
+To develop your own card - step-by-step - please go to the [wiki site](https://github.com/fabiankaegy/gutenberg-workshop-wordcamp-prague/wiki) of this repository.
 
 Have fun!
 [Fabian](https://twitter.com/fabiankaegy) & [Anja](https://twitter.com/anjadeubzer)
