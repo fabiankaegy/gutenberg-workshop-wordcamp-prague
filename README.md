@@ -8,6 +8,6 @@ We want to instruct you to develop a custom gutenberg block from scratch with th
 
 The outcome of this workshop is a versatile Card Block you can hopefully adapt and reuse one one of your future projects.
 
-![card-example-01](./card-example-01.jpg =768x)
+![card-example-01](./card-example-01.jpg)
 
-![card-example-01](./card-example-01.jpg =768x)
+![card-example-01](./card-example-01.jpg)
